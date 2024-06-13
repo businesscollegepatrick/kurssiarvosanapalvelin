@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurssiarvosanat</title>
+    <script type="module" src="/includes/front.js"></script>
+    <link rel="stylesheet" href="/includes/styles.css">
+</head>
+<body>
+    <h1>Kurssiarvosanat</h1>
+    <div>
+        <form id="haku">
+            <input type="text" id="kurssi" name="kurssi" placeholder="kurssin nimi">
+            <input type="text" id="opiskelija" name="opiskelija" placeholder="opiskelijan nimi">
+            <button type="submit" id="hae">Hae</button>
+        </form>
+        <div id="hakutulos"></div>
+    </div>
+    <div>
+        <h2>Lisää kurssiarvosanoja</h2>
+        <form id="lisaa">
+            <textarea id="kurssiarvosanat" name="kurssiarvosanat" rows="10" cols="60"></textarea>
+            <button type="submit" id="lataa">Lisää</button>
+        </form>
+        <div id="lataustulos"></div>
+    </div>
+</body>
+</html>
